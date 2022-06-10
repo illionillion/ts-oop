@@ -10,4 +10,9 @@ export default class Skeleton extends Monster {
     boneAttack = () => {
         console.log(`${this.getName()}は骨で叩いた！！`);
     }
+
+    wow(): void {
+        console.log(`${this.getName()}は鳴いた！！`);
+        console.log(`booone!!!`);
+    }
 }

@@ -16,4 +16,6 @@ export default abstract class Monster {
         console.log(`${this.getName()}は逃げた`);
     }
 
+    abstract wow(): void
+
 }
