@@ -8,12 +8,8 @@ export default class SuperHero extends Hero {
         console.log(`${this.getName()}が召喚された！！`);
     }
 
-    getName = ():string => {
-        return `スーパー勇者 ${this.name}`
-    }
-
     superAtack = () => {
         console.log(`${this.getName()}の攻撃！！`);
-        console.log(`敵に ${ this.pw * 1.5 } のダメージ！！`);
+        console.log(`敵に ${ this.getPW() * 1.5 } のダメージ！！`);
     }
 }

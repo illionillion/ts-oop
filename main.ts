@@ -9,7 +9,7 @@ h.attack()
 console.log(h.getName());
 
 h.sleep()
-console.log(h.mp);
+console.log(h.getMP());
 // for (let i = 0; i < 21; i++) {
 //     h.sleep()
 //     console.log(h.mp);
