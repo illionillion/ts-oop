@@ -37,4 +37,8 @@ export default abstract class Character {
         this.pw = pw
     }
 
+    hello():void {
+        console.log('Hello!');
+    }
+
 }
